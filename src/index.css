@@ -1,0 +1,125 @@
+:root {
+  background-color: #2a9d8f;
+  font-family: 'VT323', monospace;
+  color: #fff;
+}
+
+a, p, li {
+  font-weight: 0;
+  color: #111;
+  list-style: none;
+  margin: 0;
+  font-weight: 400;
+  text-align: justify
+}
+
+input, textarea, button {
+  font-family: 'VT323', monospace;
+  border-radius: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+.container, .popup {
+  border: 1px solid #111;
+  width: fit-content;
+  max-width: 300px;
+  height: fit-content;
+}
+
+.title, h4 {
+  margin: 0;
+  padding: 3px;
+  font-weight: 500;
+  background-color: #04023B;
+  letter-spacing:1px;
+}
+
+.content {
+  background: #B6BFCD;
+  padding: 3px;
+}
+
+.menu {
+  display: flex;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.menu li {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+textarea {
+  height: 15px;
+  width: 100%;
+  resize: none;
+  margin-right: 2px;
+}
+
+.text input {
+  height: 21px;
+}
+
+.chats {
+  max-height: 200px;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+}
+
+.popup {
+  position: absolute;
+  top: 30px;
+  right: 80%;
+  box-shadow: 1px 1px 5px black;
+}
+
+.popup .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup .title input {
+  padding: 0;
+  font-weight: 600;
+  margin: 0;
+  border-radius: 0;
+  width: 16px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+}
+
+.login {
+  background: #B6BFCD;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.login input {
+  margin-bottom: 2px;
+  width: 96%;
+}
+
+.login button {
+  margin-bottom: 2px;
+  width: 100%;
+}
+
