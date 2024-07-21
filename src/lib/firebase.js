@@ -1,18 +1,15 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
-import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC1UUNgBR6xcALnW0a_xmIEFigz7BZAAsQ",
-  authDomain: "chat-app-35e8b.firebaseapp.com",
-  projectId: "chat-app-35e8b",
-  storageBucket: "chat-app-35e8b.appspot.com",
-  messagingSenderId: "168469540104",
-  appId: "1:168469540104:web:bbc373a5b06bdc5bb350bd"
+  apiKey: "AIzaSyANsu8d3vAdUh5UTMe-Jw5iyfJWdU8h_wI",
+  authDomain: "retro-chat-722f9.firebaseapp.com",
+  projectId: "retro-chat-722f9",
+  storageBucket: "retro-chat-722f9.appspot.com",
+  messagingSenderId: "1001152175186",
+  appId: "1:1001152175186:web:4fa3a3c294afd6d377138b"
 };
-
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth();
 export const db = getFirestore();
-export const storage = getStorage();

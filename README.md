@@ -1,22 +1,8 @@
-# Retro Chat
+# React + Vite
 
-inspired by the retro aesthetic of windows95
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-signin
-![signin](https://github.com/user-attachments/assets/e0f4f880-0557-4cf1-be88-6dc6fa9240e1)
+Currently, two official plugins are available:
 
-login
-![login](https://github.com/user-attachments/assets/b5198463-73f4-4b89-a6f0-e06bcbc66158)
-
-menu
-![menu](https://github.com/user-attachments/assets/ea1a7bd1-7c5c-4b25-84cf-4b812efb9046)
-
-find
-![find](https://github.com/user-attachments/assets/b27c5d39-3ecd-4957-b37a-7116eb74ecc8)
-
-chatbox
-![chatbox](https://github.com/user-attachments/assets/a8520835-d852-462f-9aa8-078f4a0aa2e7)
-
-
-
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

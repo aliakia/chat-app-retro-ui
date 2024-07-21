@@ -1,0 +1,26 @@
+.find {
+    position: absolute;
+    top: 30px;
+    right: 50%;
+    box-shadow: 1px 1px 5px black;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+  }
+
+  .search input {
+    margin: 0;
+  }
+  .result {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin-bottom: 1px solid #111;
+    cursor: pointer;
+  }
+
+
+  
+  

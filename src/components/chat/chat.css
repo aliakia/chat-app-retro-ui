@@ -1,0 +1,30 @@
+.chat {
+    max-width: 216px;
+    border: 1px solid #111;
+    margin-top: 30px;
+    height: fit-content;
+    font-size: 14px;
+  }
+
+  .chats {
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 10px;
+    min-height: 200px;  
+    max-height: 300px;  
+  }
+
+.you {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 5px;
+}
+
+.text {
+  display: flex;
+}
+
+input {
+  margin-bottom: 0;
+}
